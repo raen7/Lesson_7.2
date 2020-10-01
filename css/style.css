@@ -1,0 +1,139 @@
+/* Обнуляюющий стиль */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+ol li,
+ul li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  font-size: 14px;
+  line-height: 1;
+  height: 100%;
+  font-family: Poppins;
+  color: #5a5a5a;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+
+  background: #e7e7e7 url("../img/lines.png") center 120px no-repeat;
+}
+/*---------------------------------------*/
+.container {
+  max-width: 841px;
+  margin: 0px auto;
+}
+
+.title {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgba(39, 61, 70, 0.6);
+  text-transform: uppercase;
+  line-height: 2.857;
+  text-align: center;
+  margin: 100px 0px 25px 0px;
+  letter-spacing: 5px;
+}
+.subtitle {
+  font-size: 36px;
+  font-family: "Times New Roman";
+  color: rgb(39, 61, 70);
+  line-height: 1.389;
+  text-align: center;
+  margin: 0px 0px 100px 0px;
+}
+.image img {
+  border: 10px solid #fff;
+  box-shadow: 0 0 65px 5px rgba(0, 0, 0, 0.158);
+  margin: 0px 0px 100px 0px;
+}
+.textfirst,
+.textsecond {
+  font-size: 24px;
+  font-family: "Times New Roman";
+  color: rgba(39, 61, 70, 0.8);
+  line-height: 1.667;
+  text-align: left;
+  padding: 0px 30px;
+}
+.textfirst {
+  margin: 0px 0px 60px 0px;
+}
+.list {
+  padding: 0px 30px;
+  margin: 60px 0px 60px 0px;
+}
+.list li {
+  margin: 0px 0px 20px 0px;
+  background: url("../img/check.png") 0 10px no-repeat;
+  font-size: 20px;
+  font-family: "Arial";
+  padding: 0px 0px 0px 35px;
+}
+.first,
+.third {
+  color: rgb(39, 61, 70);
+  line-height: 1.8;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+.second {
+  color: rgb(128, 183, 179);
+  line-height: 1.8;
+  font-style: italic;
+}
+.third {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(39, 61, 70);
+  line-height: 1.8;
+}
+.fourth {
+  color: rgba(39, 61, 70, 0.302);
+  text-decoration: line-through;
+  line-height: 1.8;
+}
+.link {
+   margin: 0px 0px 100px 60px;
+   display: inline-block;
+   background-color: #80b7b3;
+   font-size: 20px;
+   padding: 0px 20px 0px 20px;
+   line-height: 40px;
+   border-radius: 20px;
+   box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.288);
+}
+.link span{
+   color: #fff;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   background: url('../img/arrow.png')  right no-repeat;
+   padding: 0px 25px 0px 0px;
+}
